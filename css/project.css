@@ -1,0 +1,114 @@
+@media (min-width: 768px){
+    .navbar-right{
+        margin-right: 15px;
+    }
+}
+.navbar-default .navbar{
+    box-shadow: 0 6px 6px -6px #CCC;
+}
+.navbar-default .navbar-brand{
+    font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar-transparent{
+    background-color: transparent;
+    /*border-color: rgba(255,255,255,0.4);*/
+}
+.navbar-transparent .navbar-brand{
+  /*  color: rgba(255,255,255,0.8);*/
+     color: rgba(158,71,44,0.8);
+    font-weight: 600;
+}
+.navbar-transparent .navbar-nav>li>a{
+    /*color: rgba(255,255,255,0.8);*/
+     color: rgba(158,71,44,0.8);
+     font-size: 13px;
+     font-weight: 600;
+     text-transform: uppercase;
+    &:hover{
+        background-color: inherit;
+        color: #FFF;
+    }
+}
+.navbar-default .navbar-toggle {
+    border-color: rgba(158,71,44,0.8);
+}
+
+.parallax {
+     background-image: url('../images/youtube_twitter_facebook_skype_social_networking_93563_2560x1440.jpg');
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+   /* height: 600px;*/
+    height: 100vh;
+   /* max-width: 100%;*/
+    background-size:100% 100%;
+}
+@media screen and (max-width: 500px) {
+    .parallax {
+        background-attachment: scroll;
+       /* max-width: 100%;*/
+    }
+}
+
+.btn-primary{
+    background-color: rgba(158,71,44,0.8);
+    border-color: rgba(158,71,44,0.8);
+}
+.btn-primary:hover{
+    background-color: rgba(158,71,44,0.8);
+    border-color: rgba(158,71,44,0.8);
+}
+.fa{
+    margin-right: 40px;
+    margin-top: 9px;
+    color: rgba(158,71,44,0.8);
+    /*background-color: rgba(228,212,160,1);*/
+}
+.panel-default{
+    background-color: rgba(228,212,160,1);
+    border-color: rgba(228,212,160,1);
+}
+@media screen and (max-width: 767px) {
+  .fa{
+    margin-right: 10%;
+    margin-top: 9px;
+}  
+    
+}
+.panel-footer a{
+    color: #6e7b81;
+}
+
+
+
+
+
+.jumbotron {
+background: rgba(228,212,160,1);
+color: rgba(158,71,44,0.8);
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 15px;
+padding-bottom: 15px; }
+.jumbotron small {
+color: rgba(158,71,44,0.8);
+}
+.h1 small {
+font-size: 22px;
+}
+.well{
+    background-color: rgba(224,196,161,1);
+    border:1px solid rgba(224,196,161,1);
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgba(158,71,44,0.8);
+}
+.navbar-default .navbar-brand {
+    color:rgba(158,71,44,0.8);
+}
